@@ -21,3 +21,29 @@ body {
   background-image: url(images/stars.svg);
   background-color: black;
 }
+
+.asteroid {
+  top: 200px;
+  left:200px;
+  position: absolute;
+  animation: box-rotate 5s linear infinite alternate;
+}
+
+@keyframes box-rotate {
+  
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ship {
+  top: 500px;
+  left: 900px;
+  position: absolute;
+  animation:;
+}
+
